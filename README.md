@@ -66,3 +66,23 @@
             rebase는 충돌이 발생한 모든 commit을 수정
             merge는 HEAD에 대해서만 합치므로 한번만 수정   
     ```
+3. vscode에서 branch 사용하기
+    ```
+    checkout branch:
+        터미널: git checkout 브랜치이름
+        vscode: 좌하단 branch 직접 선택 
+    create branch: 
+        터미널: 
+        vscode: 명령팔레트 -> create branch
+    merge:
+        터미널: base브랜치로 checkout하고, git merge 원하는브랜치
+        vscode: base브랜치로 checkout하고, 명령팔레트 -> git merge branch 
+    rebase: 
+        터미널: base브랜치로 checkout하고, git rebase 원하는브랜치
+        vscode: base브랜치로 checkout하고, 명령팔레트 -> git rebase branch  
+    ```
+
+4. 추가해야 할 것?
+    * what is pull requests 다음 링크에서의 용도? https://hhhh88.tistory.com/43
+    * git cherry-pick : HEAD가 아닌 것을 병합하는 방법? https://wikidocs.net/154072
+    * 명령팔레트에서 git rebase하면 분기 다시지정이라고 나오는데, 의미 생각해보기 
